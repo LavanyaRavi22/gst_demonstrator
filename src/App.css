@@ -1,0 +1,147 @@
+.item-form {
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: inline-block;
+}
+
+.item-label {
+    display: block;
+    color:gray;
+    font-size:12px;
+    padding:2%;
+}
+
+.item-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 3%;
+    padding: 1%;
+    font-size: 20px;
+    border: 1px solid gainsboro;
+    border-radius: 5%;
+}
+
+.item-radio {
+    display: block;
+    margin-left: 10%;
+    font-size: 17px;
+    color: darkslategray;
+    padding: 2%;
+}
+
+.item-submit {
+    text-align: center;
+    font-size: 15px;
+    background-color: beige;
+    border-radius: 5%;
+    padding: 3%;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.item-data {
+    width: 70%;
+    float: right;
+    margin-top: 5%;
+}
+
+.item-data ul {
+  list-style:none;
+  padding:0;
+}
+
+.item-data ul li {
+    background-color: #777777;
+    color:white;
+    display: inline;
+    padding: 2% 5%;
+}
+
+.item-data .active {
+    background-color: #333333;
+}
+
+.table {
+    margin-top: 5%;
+    width: 95%;
+    padding-right: 1%;
+}
+
+.table tr th {
+    background-color: beige;
+    padding: 2%;
+    border: 1px solid lightgray;
+    box-shadow: 1px 0px 5px lightgray;
+}
+
+.final {
+    color: gray;
+    font-size:12px;
+    padding:2%;
+}
+
+.final-price {
+    color:black;
+    font-size:20px;
+    padding-left: 5%;
+    word-break: break-all;
+    margin-bottom: 0;
+    display:block;
+    margin-top: 5%;
+}
+
+.item-chart {
+    background-color: beige;
+    border: 1px solid lightgray;
+    padding: 7%;
+    margin-right: 10%;
+}
+
+.item-list td {
+    padding: 1%;
+    text-align: center;
+    border: 1px solid lightgray;
+    word-break: break-word;
+    width: 20%;
+}
+
+.rv-radial-chart {
+  margin:0 auto;
+}
+
+.heading {
+    text-align: center;
+    font-size: 170%;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 0;
+    color: #F4F7DB;
+    text-shadow: 2px 1px 9px black;
+    width: 100%;
+}
+
+@media all and (max-width: 765px) {
+  .item-form {
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+
+  .item-data {
+    width: 100%;
+    float: none;
+    margin-left: 4%;
+    margin-top: 10%;
+  }
+
+  .item-chart {
+    margin-right: 6%;
+    padding: 0;
+    background-color: white;
+    border: 0px;
+    width: 100%;
+  }
+
+}
+
